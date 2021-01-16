@@ -1,7 +1,7 @@
 require 'pry'
 
 def line(array)
-  new_array = array.map.with_index[1] do |name, index|
+  new_array = array.map.with_index(1) do |name, index|
       "#{index}. #{name}"
   end
 
